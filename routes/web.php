@@ -15,3 +15,8 @@ Route::get('/', [
 	'uses' => 'HomeController@getIndex',
 	'as' => 'index'
 ]);
+
+Route::get('/gallery', [
+	'uses' => 'HomeController@getGallery',
+	'as' => 'gallery'
+	]);
